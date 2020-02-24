@@ -1,2 +1,2 @@
 # code-challenge
- LIBO.
+ LIBO

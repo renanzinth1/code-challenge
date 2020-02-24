@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content">
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home.DetailsActivity">
+
+    <ImageView
+        android:id="@+id/movie_backdrop_detail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_image_placeholder"
+        android:scaleType="center"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/movie_name_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/movie_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+        <TextView
+            android:id="@+id/movie_date_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movie_name_detail"
+            android:text="@string/movie_date"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="17dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/movie_poster_detail"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:id="@+id/movie_genre_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/genre_label"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/movie_poster_detail"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#929292"/>
+
+            <TextView
+                android:id="@+id/movie_genre_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/movie_poster_detail"
+                android:layout_below="@id/movie_genre_label"
+                android:layout_marginLeft="10dp"
+                android:text="@string/movie_genre_list"
+                android:textColor="#000000"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+            <TextView
+                android:id="@+id/movie_overview_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sinopse_label"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/movie_genre_detail"
+                android:layout_toRightOf="@+id/movie_poster_detail" />
+
+            <TextView
+                android:id="@+id/movie_overview_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="8dp"
+                android:textColor="#000000"
+                android:text="@string/movie_overview"
+                android:layout_toRightOf="@+id/movie_poster_detail"
+                android:layout_below="@+id/movie_overview_label" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+</ScrollView>
