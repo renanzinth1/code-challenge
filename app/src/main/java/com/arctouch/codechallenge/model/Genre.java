@@ -1,4 +1,4 @@
-package com.arctouch.rzt.model;
+package com.arctouch.codechallenge.model;
 
 public class Genre {
 

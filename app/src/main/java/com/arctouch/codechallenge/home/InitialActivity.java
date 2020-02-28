@@ -1,12 +1,12 @@
-package com.arctouch.rzt.home;
+package com.arctouch.codechallenge.home;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 
-import com.arctouch.rzt.R;
-import com.arctouch.rzt.repository.MovieRepository;
+import com.arctouch.codechallenge.R;
+import com.arctouch.codechallenge.Repository.MovieRepository;
 
 import java.util.ArrayList;
 import java.util.List;

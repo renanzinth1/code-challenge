@@ -1,6 +1,6 @@
-package com.arctouch.rzt.data;
+package com.arctouch.codechallenge.data;
 
-import com.arctouch.rzt.model.Genre;
+import com.arctouch.codechallenge.model.Genre;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.arctouch.rzt.model;
+package com.arctouch.codechallenge.model;
 
 import java.util.List;
 

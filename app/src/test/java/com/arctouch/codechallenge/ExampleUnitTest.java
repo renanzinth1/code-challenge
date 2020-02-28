@@ -1,4 +1,4 @@
-package com.arctouch.rzt;
+package com.arctouch.codechallenge;
 
 import org.junit.Test;
 

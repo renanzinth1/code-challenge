@@ -1,6 +1,6 @@
-package com.arctouch.rzt.base;
+package com.arctouch.codechallenge.base;
 
-import com.arctouch.rzt.api.TmdbApi;
+import com.arctouch.codechallenge.api.TmdbApi;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;

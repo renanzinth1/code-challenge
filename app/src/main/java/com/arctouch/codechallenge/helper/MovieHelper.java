@@ -1,4 +1,4 @@
-package com.arctouch.rzt.helper;
+package com.arctouch.codechallenge.helper;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -6,12 +6,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.arctouch.rzt.R;
-import com.arctouch.rzt.api.TmdbApi;
-import com.arctouch.rzt.base.BaseActivity;
-import com.arctouch.rzt.home.DetailsActivity;
-import com.arctouch.rzt.model.Movie;
-import com.arctouch.rzt.util.MovieImageUrlBuilder;
+import com.arctouch.codechallenge.R;
+import com.arctouch.codechallenge.api.TmdbApi;
+import com.arctouch.codechallenge.base.BaseActivity;
+import com.arctouch.codechallenge.home.DetailsActivity;
+import com.arctouch.codechallenge.model.Movie;
+import com.arctouch.codechallenge.util.MovieImageUrlBuilder;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestManager;
 

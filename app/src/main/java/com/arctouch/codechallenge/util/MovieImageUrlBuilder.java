@@ -1,6 +1,6 @@
-package com.arctouch.rzt.util;
+package com.arctouch.codechallenge.util;
 
-import com.arctouch.rzt.api.TmdbApi;
+import com.arctouch.codechallenge.api.TmdbApi;
 
 public class MovieImageUrlBuilder {
 

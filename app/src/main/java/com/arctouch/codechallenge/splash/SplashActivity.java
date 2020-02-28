@@ -1,15 +1,15 @@
-package com.arctouch.rzt.splash;
+package com.arctouch.codechallenge.splash;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.arctouch.rzt.R;
-import com.arctouch.rzt.api.TmdbApi;
-import com.arctouch.rzt.base.BaseActivity;
-import com.arctouch.rzt.data.Cache;
-import com.arctouch.rzt.home.HomeActivity;
+import com.arctouch.codechallenge.R;
+import com.arctouch.codechallenge.api.TmdbApi;
+import com.arctouch.codechallenge.base.BaseActivity;
+import com.arctouch.codechallenge.data.Cache;
+import com.arctouch.codechallenge.home.HomeActivity;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;

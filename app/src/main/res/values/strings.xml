@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Code Challenge</string>
+    <string name="app_name">Arctouch Code Challenge</string>
     <string name="movie_and_genres">%s - %s</string>
     <string name="info_movie">Informações do filme</string>
     <string name="movie_name">Um Maluco do Pedaço</string>

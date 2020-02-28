@@ -1,4 +1,4 @@
-package com.arctouch.rzt;
+package com.arctouch.codechallenge;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

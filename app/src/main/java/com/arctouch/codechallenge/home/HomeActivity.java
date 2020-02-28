@@ -1,4 +1,4 @@
-package com.arctouch.rzt.home;
+package com.arctouch.codechallenge.home;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -12,12 +12,12 @@ import android.view.View;
 import android.widget.AbsListView;
 import android.widget.ProgressBar;
 
-import com.arctouch.rzt.R;
-import com.arctouch.rzt.api.TmdbApi;
-import com.arctouch.rzt.base.BaseActivity;
-import com.arctouch.rzt.data.Cache;
-import com.arctouch.rzt.model.Genre;
-import com.arctouch.rzt.model.Movie;
+import com.arctouch.codechallenge.R;
+import com.arctouch.codechallenge.api.TmdbApi;
+import com.arctouch.codechallenge.base.BaseActivity;
+import com.arctouch.codechallenge.data.Cache;
+import com.arctouch.codechallenge.model.Genre;
+import com.arctouch.codechallenge.model.Movie;
 
 import java.util.ArrayList;
 import java.util.List;

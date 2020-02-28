@@ -1,4 +1,4 @@
-package com.arctouch.rzt.repository;
+package com.arctouch.codechallenge.Repository;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -10,15 +10,15 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.arctouch.rzt.R;
-import com.arctouch.rzt.api.TmdbApi;
-import com.arctouch.rzt.base.BaseActivity;
-import com.arctouch.rzt.data.Cache;
-import com.arctouch.rzt.home.DetailsActivity;
-import com.arctouch.rzt.home.HomeAdapter;
-import com.arctouch.rzt.model.Genre;
-import com.arctouch.rzt.model.Movie;
-import com.arctouch.rzt.util.MovieImageUrlBuilder;
+import com.arctouch.codechallenge.R;
+import com.arctouch.codechallenge.api.TmdbApi;
+import com.arctouch.codechallenge.base.BaseActivity;
+import com.arctouch.codechallenge.data.Cache;
+import com.arctouch.codechallenge.home.DetailsActivity;
+import com.arctouch.codechallenge.home.HomeAdapter;
+import com.arctouch.codechallenge.model.Genre;
+import com.arctouch.codechallenge.model.Movie;
+import com.arctouch.codechallenge.util.MovieImageUrlBuilder;
 import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
